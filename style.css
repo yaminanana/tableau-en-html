@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+}
+ th {
+    border: 1px solid black;
+    padding: 10px;
+    background: white;
+  }
+
+  tbody th{
+      background: #c3c9c4;
+      font-weight: normal;
+      
+  }
+  td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
+    
+  }
+  caption {
+border: 1px solid black;
+padding: 10px;
+background: #c3c9c4;
+font-weight: bold;
+
+  }
+
+
+
+ tbody tr:nth-child(2n+1){
+      background-color: rgba(105, 192, 192, 0.972);
+  }
+  
+  tbody tr:nth-child(2n){
+      background-color:rgba(62, 253, 55, 0.897);
+  }
+  
+  
+
+  tfoot {
+background-color: white;
+font-style: italic;
+font-size: 18px;
+  }
